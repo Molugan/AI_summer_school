@@ -26,7 +26,7 @@ def load_image_in_vgg_format(infilename):
     # Notes:
     # 1) cette fonction normalize aussi l'image: elle divise la valeur de
     # chaque pixel par 255 pour n'avoir que des valeurs comprises entre 0 et 1
-    # 2) de le tensor de sortie est au format 3 x L x H (et non plus LxHx3)
+    # 2) de le tensor de sortie est au format 3 x H x L (et non plus LxHx3)
     to_tensor = torchvision.transforms.ToTensor()
 
     # Le réseau VGG requiert que l'image soit normalisée, en d'autres termes
@@ -48,7 +48,7 @@ def load_image_in_vgg_format(infilename):
     img = vgg_transform(img)
     C, L, H = img.size()
 
-    # vgg veut des images au format batch N x C x L x H. Or quand nous n'avons
+    # vgg veut des images au format batch N x C x H x L. Or quand nous n'avons
     # qu'une seule image N=1
     return img.view(1, C, L, H)
 
