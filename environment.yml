@@ -1,0 +1,13 @@
+name: ai_summer_school
+channels:
+  - pytorch
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - pytorch
+  - torchvision
+  - numpy
+  - pip
+  - pip:
+    - pillow
