@@ -12,4 +12,4 @@ Veuillez faire les exercices dans cet ordre:
 
 3) 2_lemur_breakfeast_club.ipynb
 
-Si vous avez une machine très peu puissante (moins de 1Gb de RAM) faites 0_classification_light.ipynb plutôt que 0_classification.ipynb.
+Si vous avez une machine très peu puissante (moins de 1Go de RAM) faites 0_classification_light.ipynb plutôt que 0_classification.ipynb, et 2_lemur_breakfeast_club_light.ipynb plutôt que 2_lemur_breakfeast_club.ipynb.
