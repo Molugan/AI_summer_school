@@ -115,9 +115,9 @@ def batch_norm(x):
 # BONUS : K-MEANS
 # L'algorithme de K-MEAN est une méthode assez connue pour partitionner des
 # vecteurs https://fr.wikipedia.org/wiki/K-moyennes
-# En avec des tensors pytorch, vous n'avez besoin que de 4 lignes
+# Et avec des tensors pytorch, vous n'avez besoin que de 4 lignes
 # pour écrire cet algorithme.
-
+#
 # Indices:
 # 1) Vous aurez besoin de la methode .min() qui peut s'utiliser comme sum()
 # 2) si x est de dimension NxS et y est de dimension N alors x[y>0] vous donnera

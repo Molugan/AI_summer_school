@@ -37,9 +37,9 @@ def rgb_to_grey(x):
 # Par exemple la fonction suivante calcul le gradient selon l'axe x (grad_x)
 def build_conv_grad_x():
 
-    output = torch.nn.Conv2d(1,  # Nombre de cannaux dans l'image d'entrée, nous travaillons avec des images en noir et blanc donc 1
-                             1,  # Nombre de cannaux dans l'image de sortie
-                             3,  # Taille du noyau de comvolution
+    output = torch.nn.Conv2d(1,         # Nombre de cannaux dans l'image d'entrée, nous travaillons avec des images en noir et blanc donc 1
+                             1,         # Nombre de cannaux dans l'image de sortie
+                             3,         # Taille du noyau de comvolution
                              padding=1) # Nombre de lignes zéros à ajouter à l'image lors de la convolution
 
     # Le noyau de convolution est de taille trois, cela veut dire que la convolution est effectuée par une matrice 3x3
@@ -105,12 +105,10 @@ def build_conv_mean_9x9():
 # Regardons à présent ce qui se passe lorsque l'on combine des filtres.
 # Regardez les effets des fonctions suivantes
 
-def mean_3x3_combo(x):
+def mean_3x3_combo(x, n_combo):
     mean_3x3 = build_conv_mean_3x3()
-    x = applique_filtre(x, mean_3x3)
-    x = applique_filtre(x, mean_3x3)
-    x = applique_filtre(x, mean_3x3)
-    x = applique_filtre(x, mean_3x3)
+    for _ in range(n_combo):
+        x = applique_filtre(x, mean_3x3)
     return x
 
 
@@ -122,6 +120,10 @@ def diff_mean_combo(x):
 def diff_mean_combo_2(x):
     return
 
+# Definissez la comvoliution à laquelle correspond mean_3x3_combo(x, 2) :
+def mean_3x3_combo_x2(x):
+    return
+
 # Exercice 7:
 # Vous allez à présent programmer un détecteur de bord. Appliquez votre filtre
 # build_conv_grad_sum_xy à une image I pour estimer son gradient grad_I.
@@ -131,6 +133,9 @@ def diff_mean_combo_2(x):
 
 def extraction_des_bords(x):
     return
+
+# Exercice 8
+#
 
 if __name__ == "__main__":
 
