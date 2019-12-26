@@ -13,3 +13,7 @@ Si vous avez déjà conda sur votre système alors vous pouvez installer les lib
     conda env create -f environment.yml && conda activate ai_summer_school
 
 Sinon, installez [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/) c'est bien !
+
+## Slides
+
+Les slides du cours sont disponibles ici: https://drive.google.com/drive/folders/1XlMB5kcR6T_s2TlNygLVTb5QdDHxACH3?usp=sharing
