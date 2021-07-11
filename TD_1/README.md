@@ -8,3 +8,5 @@ Veuillez faire les exercices dans l'ordre suivant:
 3) 2_image_filters.ipynb
 
 Une version sans jupyter est également disponible dans non_jupyter/
+
+En cas de doute, pensez à regarder la documentation de pytorch https://pytorch.org/docs/stable/index.html !
