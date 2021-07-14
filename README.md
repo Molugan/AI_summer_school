@@ -20,6 +20,7 @@ Les slides du cours sont disponibles ici: https://drive.google.com/drive/folders
 
 ## Liens utiles
 
+- Installer git : https://git-scm.com/book/fr/v2/D%C3%A9marrage-rapide-Installation-de-Git
 - La documentation de pytorch : https://pytorch.org/docs/stable/index.html
 - Les modèles classiques de vision par ordinateur intégrés dans pytorch : https://pytorch.org/vision/stable/models.html . AlexNet et VGG sont les plus simples pour commencer.
 - De nombreux modèles pré-entrainés dans des domaines variés partagés par la communauté de pytorch : https://pytorch.org/hub/
