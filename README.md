@@ -1,7 +1,7 @@
 # AI_summer_school
-(French only) TDs de l'école d'été de Madagascar
+(French only) Introduction à la vision par ordinateur et à pytorch
 
-## I don't speaker french where can I find a good AI summer school ?
+## I don't speake french where can I find a good AI summer school ?
 
 Many other courses exist. For example I can recommend you the excellent [fast.ai](fast.ai)
 
