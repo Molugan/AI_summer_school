@@ -17,3 +17,9 @@ Sinon, installez [conda](https://docs.conda.io/projects/conda/en/latest/user-gui
 ## Slides
 
 Les slides du cours sont disponibles ici: https://drive.google.com/drive/folders/1XlMB5kcR6T_s2TlNygLVTb5QdDHxACH3?usp=sharing
+
+## Liens utiles
+
+- La documentation de pytorch : https://pytorch.org/docs/stable/index.html
+- Les modèles classiques de vision par ordinateur intégrés dans pytorch : https://pytorch.org/vision/stable/models.html . AlexNet et VGG sont les plus simples pour commencer.
+- De nombreux modèles pré-entrainés dans des domaines variés partagés par la communauté de pytorch : https://pytorch.org/hub/
